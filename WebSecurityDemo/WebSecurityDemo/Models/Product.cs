@@ -31,4 +31,14 @@ namespace WebSecurityDemo.Models
             Id = $"ProductId:{id}|<script>";
         }
     }
+
+    public class Product3
+    {
+        public string Id { get; set; }
+
+        public Product3(string id)
+        {
+            Id = id;
+        }
+    }
 }

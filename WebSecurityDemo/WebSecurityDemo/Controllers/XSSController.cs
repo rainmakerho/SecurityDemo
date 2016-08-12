@@ -31,5 +31,27 @@ namespace WebSecurityDemo.Controllers
             var myProduct = new Product2(id);
             return Json(myProduct, JsonRequestBehavior.AllowGet);
         }
+
+        public ActionResult T4P3(string id)
+        {
+            var myProduct = new Product3(id);
+            return Json(myProduct, JsonRequestBehavior.AllowGet);
+        }
+
+        public ActionResult T5P3(string id)
+        {
+            var myProduct = new Product4(id);
+            return Json(myProduct, JsonRequestBehavior.AllowGet);
+        }
+    }
+
+    public class Product4
+    {
+        public string ProductId { get; set; }
+        public Product4(string id)
+        {
+ 
+            ProductId = id;
+        }
     }
 }
