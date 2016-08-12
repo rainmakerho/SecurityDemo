@@ -38,3 +38,4 @@ D:\GitRepo\SecurityDemo\WebSecurityDemo\WebSecurityDemo\bin\System.Web.Http.xml
 D:\GitRepo\SecurityDemo\WebSecurityDemo\WebSecurityDemo\bin\System.Web.Http.WebHost.xml
 D:\GitRepo\SecurityDemo\WebSecurityDemo\WebSecurityDemo\obj\Debug\WebSecurityDemo.dll
 D:\GitRepo\SecurityDemo\WebSecurityDemo\WebSecurityDemo\obj\Debug\WebSecurityDemo.pdb
+D:\GitRepo\SecurityDemo\WebSecurityDemo\WebSecurityDemo\obj\Debug\WebSecurityDemo.csprojResolveAssemblyReference.cache

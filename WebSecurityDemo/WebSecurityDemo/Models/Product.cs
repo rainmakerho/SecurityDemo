@@ -18,7 +18,7 @@ namespace WebSecurityDemo.Models
 
         public Product1(string id)
         {
-            Id = "ProductId:" + id + "|<script>";
+            Id = "ProductId:" + id + "|<textarea>";
         }
     }
 
@@ -28,7 +28,7 @@ namespace WebSecurityDemo.Models
 
         public Product2(string id)
         {
-            Id = $"ProductId:{id}|<script>";
+            Id = $"ProductId:{id}|<textarea>";
         }
     }
 

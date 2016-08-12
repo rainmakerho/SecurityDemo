@@ -15,10 +15,15 @@ namespace WebSecurityDemo
         {
             var id = Request["id"] ?? "";
             var p1 = new Product1(id);
+            
+            var p1JsonString = JsonConvert.SerializeObject(p1);
+            Response.Write($"P1:{p1JsonString}");
+
             var settings = new JsonSerializerSettings();
             settings.StringEscapeHandling = StringEscapeHandling.EscapeHtml;
-            var encodeJsonString = JsonConvert.SerializeObject(p1);
-            Response.Write($"P1:{encodeJsonString}");
+            var p2 = new Product2(id);
+            var p2JsonString = JsonConvert.SerializeObject(p1, settings);
+            Response.Write($"P1:{p2JsonString}");
         }
     }
 }
