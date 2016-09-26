@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSecurityDemo", "WebSecurityDemo\WebSecurityDemo.csproj", "{E4DB3075-6062-4128-9986-038F00562D1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSecurityDemo.Tests", "WebSecurityDemo.Tests\WebSecurityDemo.Tests.csproj", "{A5BEA1C2-DCF1-4A6E-A7CB-E7346BB0AED7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E4DB3075-6062-4128-9986-038F00562D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4DB3075-6062-4128-9986-038F00562D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4DB3075-6062-4128-9986-038F00562D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5BEA1C2-DCF1-4A6E-A7CB-E7346BB0AED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5BEA1C2-DCF1-4A6E-A7CB-E7346BB0AED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5BEA1C2-DCF1-4A6E-A7CB-E7346BB0AED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5BEA1C2-DCF1-4A6E-A7CB-E7346BB0AED7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
