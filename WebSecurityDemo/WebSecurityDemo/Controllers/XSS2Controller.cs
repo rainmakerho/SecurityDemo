@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace WebSecurityDemo.Controllers
 {
+    [ValidateInput(false)]
     public class XSS2Controller : Controller
     {
         // GET: XSS
